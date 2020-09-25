@@ -1,6 +1,7 @@
 fun main() {
 //    cakes1()
-    eatAndBake()
+//    eatAndBake()
+    zoo()
 }
 // ##########
 private fun cakes1() {
@@ -26,4 +27,19 @@ fun eatAndBake(){
         bakeACake()
         cakesBaked++
     } while (cakesBaked < cakesEaten)
+}
+// ##########
+class Animal(val name:String)
+
+class Zoo(val animals: List<Animal>){
+    operator fun iterator() : Iterator<Animal> {
+        return animals.iterator()
+    }
+}
+
+fun zoo(){
+    val zoo = Zoo(listOf(Animal("Zebra"), Animal("Lion")))
+    for (animal in zoo){
+        println("Watch out, it's a ${animal.name}")
+    }
 }
