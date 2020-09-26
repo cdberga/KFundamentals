@@ -1,8 +1,10 @@
+package specialClasses
+
 fun main() {
-//    stateCall()
+//    specialClasses.stateCall()
     colorCall()
 }
-// ##### State #####
+// ##### specialClasses.State #####
 
 private fun stateCall() {
     val state = State.RUNNING
@@ -18,7 +20,7 @@ enum class State{
     IDLE, RUNNING, FINISHED
 }
 
-// ##### Color #####
+// ##### specialClasses.Color #####
 
 fun colorCall(){
     val red = Color.RED

@@ -1,3 +1,5 @@
+package specialClasses
+
 class BigBen{
     companion object Bonger{
         fun getBongs(nTimes:Int){

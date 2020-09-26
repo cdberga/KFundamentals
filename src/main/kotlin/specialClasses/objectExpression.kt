@@ -1,3 +1,5 @@
+package specialClasses
+
 fun rentPrice(standardDays: Int, festivityDays: Int, specialDays: Int): Unit{
     val dayRates = object {
         var standard: Int = 30 * standardDays

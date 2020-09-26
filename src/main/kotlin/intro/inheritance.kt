@@ -1,4 +1,4 @@
-// ##### Dogs #########
+package intro// ##### Dogs #########
 
 open class Dog {
     open fun sayHello(){
@@ -31,9 +31,9 @@ class Asiatic (name:String) : Lion(name = name, "India")
 // ##############
 
 fun main() {
-//    dogs()
+//    intro.dogs()
 
-//    val tiger : Tiger = SiberianTiger()
+//    val tiger : intro.Tiger = intro.SiberianTiger()
 //    tiger.sayHello()
 
     val lion : Lion = Asiatic("Rufo")

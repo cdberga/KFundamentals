@@ -1,6 +1,8 @@
+package controlFlow
+
 fun main() {
-//    cakes1()
-//    eatAndBake()
+//    controlFlow.cakes1()
+//    controlFlow.eatAndBake()
     zoo()
 }
 // ##########
@@ -38,7 +40,7 @@ class Zoo(val animals: List<Animal>){
 }
 
 fun zoo(){
-    val zoo = Zoo(listOf(Animal("Zebra"), Animal("Lion")))
+    val zoo = Zoo(listOf(Animal("Zebra"), Animal("intro.Lion")))
     for (animal in zoo){
         println("Watch out, it's a ${animal.name}")
     }

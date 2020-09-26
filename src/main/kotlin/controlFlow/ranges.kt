@@ -1,6 +1,8 @@
+package controlFlow
+
 fun main() {
-//    numerical()
-//    alphabetical()
+//    controlFlow.numerical()
+//    controlFlow.alphabetical()
     conditional()
 }
 

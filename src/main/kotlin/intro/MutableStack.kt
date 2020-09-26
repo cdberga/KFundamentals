@@ -1,3 +1,5 @@
+package intro
+
 class MutableStack<E>(vararg items: E) {              // 1
 
     private val elements = items.toMutableList()
@@ -12,7 +14,7 @@ class MutableStack<E>(vararg items: E) {              // 1
 
     fun size() = elements.size
 
-    override fun toString() = "MutableStack(${elements.joinToString()})"
+    override fun toString() = "intro.MutableStack(${elements.joinToString()})"
 }
 
 fun <E> mutableStackOf(vararg elements: E) = MutableStack(*elements)
