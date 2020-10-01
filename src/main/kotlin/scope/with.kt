@@ -1,4 +1,4 @@
-package collections
+package scope
 
 data class Configuration(val host: String, val port: String)
 
