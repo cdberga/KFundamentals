@@ -1,3 +1,5 @@
+package dynamic
+
 fun main() {
     val a: dynamic = "abc"
     val b:String = a
