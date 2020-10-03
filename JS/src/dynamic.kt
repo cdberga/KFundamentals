@@ -3,7 +3,6 @@ fun main() {
 //    jsFunction()
     externalSample()
 }
-
 private fun dynamicInstruction() {
     val a: dynamic = "abc"
     val b: String = a
@@ -17,13 +16,4 @@ private fun dynamicInstruction() {
 
     println("2 + 2 = ${plus(2)}")
     println("'2' + 2 = ${plus("2")}")
-}
-
-fun jsFunction() {
-    js("alert(\"Alert from Kotlin!\")")
-
-    val json = js("{}")
-    json.name = "Jane"
-    json.hobby = "movies"
-    println(JSON.stringify(json))
 }
