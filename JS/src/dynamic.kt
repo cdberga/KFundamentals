@@ -1,6 +1,6 @@
 fun main() {
-//    dynamicInstruction()
-//    jsFunction()
+    dynamicInstruction()
+    jsFunction()
     externalSample()
 }
 private fun dynamicInstruction() {
